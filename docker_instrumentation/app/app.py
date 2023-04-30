@@ -6,7 +6,7 @@ REQUEST_COUNT = Counter("app_request_counter", "Total Number of Requests made on
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def hello_team():
     REQUEST_COUNT.inc()
     return "Hello Team, This is from Docker WSGI...."
