@@ -2,6 +2,6 @@
 
 while :
     do 
-    curl http://146.190.22.199:5001/
+    curl http://178.62.74.80:5001/
     sleep $((RANDOM))
 done
