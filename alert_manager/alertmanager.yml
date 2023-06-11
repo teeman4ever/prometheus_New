@@ -5,8 +5,8 @@ receivers:
   - name: admin
     email_config:
       - to: "teeman76@yahoo.com"
-        from: "adetola.awonusi@gmail.com"
+        from: "olakunleawonusi@gmail.com"
         smarthost: smtp.gmail.com:587
-        auth_username: "adetola.awonusi@gmail.com"
-        auth_identity: "adetola.awonusi@gmail.com"
-        auth_password: "16-digit password"
+        auth_username: "olakunleawonusi@gmail.com"
+        auth_identity: "olakunleawonusi@gmail.com"
+        auth_password: "oeueyhonjtlbofho"
