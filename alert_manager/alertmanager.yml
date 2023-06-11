@@ -4,7 +4,7 @@ route:
 receivers:
   - name: admin
     email_config:
-      - to: "teeman76@yahoo.com"
+      - to: "adetola.awonusi@gmail.com"
         from: "olakunleawonusi@gmail.com"
         smarthost: smtp.gmail.com:587
         auth_username: "olakunleawonusi@gmail.com"
