@@ -1,26 +1,12 @@
 modules:
   http_2xx:
     prober: http
-
+    http:
+      preferred_ip_protocol: "ip4"
   http_ipv4:
     prober: http
     http:
-      preferred_ip_protocol: ip4
-  http_find_content:
-    prober: http
-    http:
-     preferred_ip_protocol: ip4
-     fail_if_body_not_matches_regexp:
-      - "Facebook"
-
-  dns_sample:
-    prober: dns
-    dns: 
-      transport_protocol: "tcp"
-      preferred_ip_protocol: ip4
-      query_name: "www.google.com"
-
-      
+      preferred_ip_protocol: "ip4"
   http_post_2xx:
     prober: http
     http:
