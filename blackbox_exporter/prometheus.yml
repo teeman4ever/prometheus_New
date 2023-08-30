@@ -51,7 +51,7 @@ scrape_configs:
 
     static_configs:
       - targets: ["178.62.74.80:8000"]
-      
+
   - job_name: "blackbox_exporter"
 
     static_configs:
@@ -59,9 +59,9 @@ scrape_configs:
 
   - job_name: "prometheus_website"
     static_configs:
-      - targets: 
-        - prometheus.io
-        metrics_path: /probe
-        params:
-          module:
-            - http_ipv4
+    - targets: 
+      - prometheus.io
+      metrics_path: /probe
+      params:
+        module:
+        - http_ipv4
