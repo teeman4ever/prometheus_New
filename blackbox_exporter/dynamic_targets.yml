@@ -3,3 +3,9 @@
   labels:
     team: "pre-production"
     region: "eu-west-2"
+
+- targets:
+  - 178.62.74.80:9100
+  labels:
+    team: "production"
+    region: "Lagos, Nigeria"
