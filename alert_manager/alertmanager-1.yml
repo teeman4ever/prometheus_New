@@ -1,0 +1,12 @@
+route:
+  receiver: admin
+
+receivers:
+  - name: admin
+    email_configs:
+      - to: "teeman76@yahoo.com"
+        from: "olakunleawonusi@gmail.com"
+        smarthost: smtp.gmail.com:587
+        auth_username: "olakunleawonusi@gmail.com"
+        auth_identity: "olakunleawonusi@gmail.com"
+        auth_password: "oeueyhonjtlbofho"
